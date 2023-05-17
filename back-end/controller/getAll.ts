@@ -1,4 +1,5 @@
 import { Request, Response } from 'express';
+
 import getAll from "../database/module/getAll";
 
 export const getAllProducts = function(req: Request, res: Response) {

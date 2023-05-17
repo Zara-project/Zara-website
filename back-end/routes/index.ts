@@ -1,11 +1,11 @@
 import express, { Router, Request, Response } from 'express';
 import {getAllProducts} from "../controller/getAll";
 
-const router = Router();
+const routerI = Router();
 
 /* GET home page. */
-router.get('/', (req: Request, res: Response) => {
+routerI.get('/', (req: Request, res: Response) => {
   getAllProducts(req, res);
 });
 
-export default router;
+export default routerI;
