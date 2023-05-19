@@ -1,0 +1,46 @@
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.form-controll{
+    border: 0;
+    border-bottom: 1px solid;
+    width: 300px;
+   margin-bottom: 50px;
+   margin-left: 60px;
+   margin-top: 50px;
+   
+  
+  }
+
+  .b{
+    width: 70px;
+    color: rgb(0, 0, 0);
+  }
+
+
+  input:focus {
+    outline: none;
+  }
+
+  .email{
+    position:relative;
+    top: 10;
+    right:60;
+  }
+  .password{
+    position: absolute;
+    top: 0;
+    right: 10;
+  }
+
+  button{
+    margin-left: 60px;
+    width: 500px;
+  }
+
+  
+  .body{
+    background-color: white;
+  }

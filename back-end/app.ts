@@ -3,6 +3,7 @@ import cors from "cors"
 import routerI from "./routes/index";
 import routerU from "./routes/users";
 import authenticate from './authentication/authenticate';
+import routert from "./routes/types";
 const port:number=5000
 
 const app=express()
@@ -16,6 +17,7 @@ app.post("/",authenticate,(req: Request, res: Response)=>{
 
 app.use("/",routerI)
 app.use("/",routerU)
+app.use("/",routert)
 
 app.listen(port,()=>{
   console.log(`server is listening at port${port} `)

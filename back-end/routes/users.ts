@@ -7,11 +7,14 @@ const routerU = Router();
 routerU.post('/signup', function(req, res, next) {
   userSignUp(req,res);
 });
-1
+
 routerU.post('/login',  (req: Request, res: Response, next: NextFunction) => {
-  
   userLogin(req, res);
 });
 
+// routerU.post('/Signup',authenticate ,(req: Request, res: Response, next: NextFunction) => {
+  
+//   userSignUp(req, res);
+// });
 
 export default routerU
