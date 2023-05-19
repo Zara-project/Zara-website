@@ -68,6 +68,7 @@ CREATE TABLE IF NOT EXISTS `zara`.`cart` (
   `idcart` INT NOT NULL AUTO_INCREMENT,
   `products_productID` INT NOT NULL,
   `users_idusers` INT NOT NULL,
+  `quantity` INT NOT NULL,
   PRIMARY KEY (`idcart`, `products_productID`, `users_idusers`),
   INDEX `fk_cart_products1_idx` (`products_productID` ASC) VISIBLE,
   INDEX `fk_cart_users1_idx` (`users_idusers` ASC) VISIBLE,
