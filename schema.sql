@@ -26,6 +26,8 @@ CREATE TABLE IF NOT EXISTS `zara`.`products` (
   `price` INT NOT NULL,
   `sizes` VARCHAR(45) NOT NULL,
   `des` TEXT NOT NULL,
+   `image` VARCHAR(400) NOT NULL,
+
   PRIMARY KEY (`productID`))
 ENGINE = InnoDB;
 

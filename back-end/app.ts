@@ -13,7 +13,10 @@ app.use(cors());
 
 app.post("/",authenticate,(req: Request, res: Response)=>{
   res.send("hello")
-})
+}) 
+
+
+
 
 app.use("/",routerI)
 app.use("/",routerU)
