@@ -3,6 +3,7 @@ import cors from "cors"
 import routerI from "./routes/index";
 import routerU from "./routes/users";
 import authenticate from './authentication/authenticate';
+
 const port:number=5000
 
 const app=express()
@@ -12,7 +13,10 @@ app.use(cors());
 
 app.post("/",authenticate,(req: Request, res: Response)=>{
   res.send("hello")
-})
+}) 
+
+
+
 
 app.use("/",routerI)
 app.use("/",routerU)
