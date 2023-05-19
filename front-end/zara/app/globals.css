@@ -1,6 +1,6 @@
- /* @import 'tailwindcss/base';
+@import 'tailwindcss/base';
 @import 'tailwindcss/components';
-@import 'tailwindcss/utilities';  */
+@import 'tailwindcss/utilities';
 
 /*  */
 /* :root {
@@ -30,3 +30,4 @@ body {
 .input{
   border-bottom: 5px solid black;
 }
+
