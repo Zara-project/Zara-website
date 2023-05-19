@@ -1,0 +1,51 @@
+
+form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #000000;
+    color: rgb(133, 58, 58);
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #000000;
+  }
+  
+  /* Styling for the search results */
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  li:before {
+    content: "•";
+    color: #010201;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
